@@ -15780,9 +15780,7 @@ function noop () {}
 
 /***/ }),
 /* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-const playVideo = __webpack_require__(8);
+/***/ (function(module, exports) {
 
 function openStream(cb){
   navigator.mediaDevices.getUserMedia({ audio: true, video:true })
