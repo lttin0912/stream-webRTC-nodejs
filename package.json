@@ -19,5 +19,8 @@
   "homepage": "https://github.com/lttin0912/stream-webRTC-nodejs#readme",
   "devDependencies": {
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
