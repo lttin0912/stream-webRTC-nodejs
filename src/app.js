@@ -1,7 +1,7 @@
-const openStream = require("./openStream");
-const playVideo = require("./playVideo");
-const Peer = require("simple-peer");
+const playVideo = require('./playVideo');
+const Peer = require('simple-peer');
 const $ = require('jquery');
+const openStream = require('./openStream');
 
 openStream(function(stream){
   playVideo(stream, 'localStream');

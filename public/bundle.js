@@ -6799,10 +6799,10 @@ function config (name) {
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const openStream = __webpack_require__(16);
 const playVideo = __webpack_require__(31);
 const Peer = __webpack_require__(15);
 const $ = __webpack_require__(33);
+const openStream = __webpack_require__(16);
 
 openStream(function(stream){
   playVideo(stream, 'localStream');
