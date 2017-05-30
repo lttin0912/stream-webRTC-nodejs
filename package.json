@@ -1,0 +1,23 @@
+{
+  "name": "stream-webRTC-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lttin0912/stream-webRTC-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lttin0912/stream-webRTC-nodejs/issues"
+  },
+  "homepage": "https://github.com/lttin0912/stream-webRTC-nodejs#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
